@@ -28,7 +28,7 @@ The project consists of a single notebook that performs the following tasks:
 
 ## Prerequisites
 
-Before running the notebook, you need to install the required packages and import the necessary libraries. Run the following commands in a code cell:
+Before running the [notebook](https://colab.research.google.com/github/paharipratyush/intelunnati/blob/main/pdfchatbotopenvino.ipynb), you need to install the required packages and import the necessary libraries. Run the following commands in a code cell:
 
 ```python
 # Install required packages
