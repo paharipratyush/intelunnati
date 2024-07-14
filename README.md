@@ -1,6 +1,8 @@
 # Project for Intel Unnati Industrial Training 2024
  ## PDF Chatbot using OpenVINO and RAG
 
+ A PDF-based chatbot leveraging OpenVINO and RAG techniques for efficient question-answering, developed as part of the Intel Unnati Industrial Training 2024.
+
 ## Description
 
 This project demonstrates how to create a chatbot that can answer questions related to a given PDF document using the Retrieval Augmented Generation (RAG) technique. The chatbot is implemented in Google Colab and uses various libraries including OpenVINO for efficient inference.
@@ -17,6 +19,7 @@ The project consists of a single notebook that performs the following tasks:
 | PDF Processing | Extracts text from a PDF file using PyPDF2 |
 | Vector Store Generation | Creates a FAISS index from text chunks using sentence-transformers |
 | LLM Integration | Uses TinyLlama model for generating responses |
+| OpenVINO Optimization | Leverages Intel's OpenVINO toolkit for optimized model inference |
 | User Interface | Implements a Gradio interface for easy interaction |
 
 ## How to Run
@@ -72,6 +75,31 @@ The notebook uses default configurations, but you can modify the following:
 - Number of relevant chunks retrieved (k) in the `chatbot` function
 - Model used for embeddings and language generation
 
+## OpenVINO Integration
+
+This project leverages Intel's OpenVINO toolkit for optimized inference:
+
+ - The TinyLlama model is loaded and exported using `OVModelForCausalLM` from the `optimum.intel` package.
+ - This allows for hardware-specific optimizations, potentially improving inference speed and efficiency, especially on Intel hardware.
+ - OpenVINO optimizations are particularly beneficial for larger models or high-volume query processing.
+
+## System Requirements
+
+- Google Colab environment (or local setup with similar specifications)
+- Internet connection for downloading models and libraries
+- For optimal performance with OpenVINO, Intel CPU is recommended
+
+## Performance Notes
+
+- The use of OpenVINO optimizations may significantly improve performance, especially on Intel hardware
+- Performance benefits may be more noticeable with larger models or when processing many queries
+- The TinyLlama model is relatively small, which allows for quick responses but may limit the complexity of answers
+
+## Troubleshooting
+
+- If CUDA out of memory errors is encountered, try restarting the runtime or using a CPU-only version.
+- Ensure all required libraries are correctly installed. Check the error message for missing packages.
+
 ## Limitations
 
 - Performance depends on the quality and length of the uploaded PDF.
@@ -83,6 +111,18 @@ The notebook uses default configurations, but you can modify the following:
 - Integration with more powerful language models
 - Implementation of conversation history and context awareness
 - Fine-tuning options for specific domains
+
+## Team
+
+This project was developed by a team of 5 members as part of the Intel Unnati Industrial Training 2024:
+
+- [Swetakshi Nanda]: Project lead, architecture design
+- [Pratyush Pahari](https://github.com/paharipratyush): PDF processing, Embedding generation, LLM integration and OpenVINO optimization
+- [Akashdeep Mitra]: User interface development and integration
+- [Arpan Bag]: Documentation of the complete Project
+- [Tulika Chakraborty]: Documentation of the complete Project
+
+We would like to thank our mentor [Abhishek Nandy](https://github.com/AbhiLegend) and the Intel Unnati program for their guidance and support throughout this project.
 
 ## Contributing
 
@@ -100,4 +140,5 @@ This project uses several open-source libraries and models:
 - [FAISS](https://github.com/facebookresearch/faiss)
 - [Transformers](https://github.com/huggingface/transformers)
 - [TinyLlama](https://github.com/jzhang38/TinyLlama)
+- [OpenVINO](https://github.com/openvinotoolkit/openvino)
 - [Gradio](https://github.com/gradio-app/gradio)
