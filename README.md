@@ -112,14 +112,14 @@ This project leverages Intel's OpenVINO toolkit for optimized inference:
 - Implementation of conversation history and context awareness
 - Fine-tuning options for specific domains
 
-## Team
+## Team Members and their contributions
 
 This project was developed by a team of 5 members as part of the Intel Unnati Industrial Training 2024:
 
 - [Swetakshi Nanda]: Project lead, architecture design
 - [Pratyush Pahari](https://github.com/paharipratyush): PDF processing, Embedding generation, LLM integration and OpenVINO optimization
 - [Akashdeep Mitra]: User interface development and integration
-- [Arpan Bag]: Documentation of the complete Project
+- [Arpan Bag](https://github.com/ArpanBag02): Documentation of the complete Project
 - [Tulika Chakraborty]: Documentation of the complete Project
 
 We would like to thank our mentor [Abhishek Nandy](https://github.com/AbhiLegend) and the Intel Unnati program for their guidance and support throughout this project.
