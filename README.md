@@ -118,9 +118,9 @@ This project was developed by a team of 5 members as part of the Intel Unnati In
 
 - [Swetakshi Nanda]: Project lead, architecture design
 - [Pratyush Pahari](https://github.com/paharipratyush): PDF processing, Embedding generation, LLM integration and OpenVINO optimization
-- [Akashdeep Mitra]: User interface development and integration
+- [Akashdeep Mitra](https://github.com/Akashdeep099): User interface development and integration
 - [Arpan Bag](https://github.com/ArpanBag02): Documentation of the complete Project
-- [Tulika Chakraborty]: Documentation of the complete Project
+- [Tulika Chakraborty](https://github.com/Tulika2003): Documentation of the complete Project
 
 We would like to thank our mentor [Abhishek Nandy](https://github.com/AbhiLegend) and the Intel Unnati program for their guidance and support throughout this project.
 
