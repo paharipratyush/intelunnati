@@ -116,7 +116,7 @@ This project leverages Intel's OpenVINO toolkit for optimized inference:
 
 This project was developed by a team of 5 members as part of the Intel Unnati Industrial Training 2024:
 
-- [Swetakshi Nanda]: Project lead, architecture design
+- [Swetakshi Nanda](https://github.com/SwetakshiNanda18): Project lead, architecture design
 - [Pratyush Pahari](https://github.com/paharipratyush): PDF processing, Embedding generation, LLM integration and OpenVINO optimization
 - [Akashdeep Mitra](https://github.com/Akashdeep099): User interface development and integration
 - [Arpan Bag](https://github.com/ArpanBag02): Documentation of the complete Project
