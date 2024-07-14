@@ -126,7 +126,7 @@ We would like to thank our mentor [Abhishek Nandy](https://github.com/AbhiLegend
 
 ## Contributing
 
-Contributions to improve the chatbot are welcome. Please feel free to fork the repository and submit a Pull Request.
+Contributions to improve the chatbot are welcome. Please feel free to fork the repository and submit a Pull Request or open an issue to discuss about your changes.
 
 ## License
 
