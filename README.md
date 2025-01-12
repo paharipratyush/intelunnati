@@ -52,9 +52,12 @@ import nltk
 import gradio as gr
 import tempfile
 import os
+import traceback
+from google.colab import files
 
 # Download NLTK data
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 ```
 
 ## Functionality
